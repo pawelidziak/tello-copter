@@ -1,17 +1,15 @@
 {
-    "name": "tello",
+    "name": "tello-copter",
     "version": "1.0.0",
-    "description": "",
-    "main": "tello-copter.ts",
+    "description": "Tello Copter - Part 1",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "tsc --outDir dist index.ts && cd dist && node index.js"
     },
-    "author": "",
-    "license": "ISC",
+    "author": "Pawel Idziak",
+    "license": "MIT",
     "devDependencies": {
-        "@types/node": "^14.14.37",
-        "waait": "^1.0.5"
+        "@types/node": "^15.0.2"
     },
     "dependencies": {
         "typescript": "^4.2.4"
