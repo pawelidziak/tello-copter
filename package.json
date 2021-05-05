@@ -1,0 +1,19 @@
+{
+    "name": "tello",
+    "version": "1.0.0",
+    "description": "",
+    "main": "tello-copter.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "tsc --outDir dist index.ts && cd dist && node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^14.14.37",
+        "waait": "^1.0.5"
+    },
+    "dependencies": {
+        "typescript": "^4.2.4"
+    }
+}
