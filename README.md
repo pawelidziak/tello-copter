@@ -1,11 +1,10 @@
 # tello-copter
 
-### Part 1
+### Part 2
 
-This is the first part of a series about Tello drone programming. You will learn about the basic theoretical and practical things needed to control the drone via its commands. In future articles, we will discuss reading the drone state, presenting a drone video stream, and maybe... write the whole control application!
+This is the second part of a series about Tello drone programming. This article provides information about the drone state & video stream. This time we won't discuss basic information, such as the connection to the drone, its host and ports, or UDP protocol- we did it in the first part of this series.
 
 ...
 
 ### Link to the article:
 
-https://pawelidziak.medium.com/control-the-tello-drone-node-js-typescript-javascript-737db35a9d82

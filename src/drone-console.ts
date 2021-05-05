@@ -28,3 +28,5 @@ export class DroneConsole {
         process.exit(0);
     }
 }
+
+new DroneConsole();

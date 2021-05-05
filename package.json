@@ -5,7 +5,8 @@
     "main": "tello-copter.ts",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "tsc --outDir dist index.ts && cd dist && node index.js"
+        "open:console": "tsc --outDir dist src/drone-console.ts && cd dist && node drone-console.js",
+        "open:state": "tsc --outDir dist src/drone-state.ts && cd dist && node drone-state.js"
     },
     "author": "",
     "license": "ISC",
